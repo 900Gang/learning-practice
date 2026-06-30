@@ -8,19 +8,22 @@
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     min-height: 100vh;
-    /* Replace the URL below with your local FIFA logo path or a live image link */
-   /* background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("C:\Users\anand\Documents\atom project\web_design_agency\assets\fifalogo.png");*/
-   background-image: "C:\Users\anand\Documents\atom project\web_design_agency\style1.css";
-   background-size: cover;
+    width: 100%;
+    
+    /* We point directly to the filename since it's in the same folder */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), 
+                      url('web_design_agency\background.png');
+    
+    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    
     color: #ffffff;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-
 /* Welcome Message Styling */
 .welcome-container {
     text-align: center;
