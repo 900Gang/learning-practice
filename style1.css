@@ -152,3 +152,71 @@ body {
     50% { opacity: 0.4; }
     100% { opacity: 1; }
 }
+/* Dream Final Container Styling */
+.dream-final-section {
+    width: 90%;
+    max-width: 850px;
+    margin: 40px auto 10px auto;
+    position: relative;
+}
+
+/* Floating Prediction Ribbon */
+.predicted-badge {
+    position: absolute;
+    top: -12px;
+    left: 25px;
+    background: linear-gradient(135deg, #fdcf05, #ff9100);
+    color: #000000;
+    font-size: 0.75rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 4px 12px;
+    border-radius: 4px;
+    letter-spacing: 1px;
+    box-shadow: 0 4px 10px rgba(253, 207, 5, 0.4);
+    z-index: 2;
+}
+
+/* Overriding the default match-card for the Final */
+.match-card.final-highlight {
+    background: linear-gradient(135deg, rgba(20, 20, 20, 0.85), rgba(40, 40, 40, 0.85));
+    border: 2px solid #fdcf05; /* Full glowing gold border instead of just a left stripe */
+    border-radius: 12px;
+    box-shadow: 0 0 20px rgba(253, 207, 5, 0.2);
+    padding: 25px;
+}
+
+.match-card.final-highlight:hover {
+    transform: scale(1.02);
+    box-shadow: 0 0 30px rgba(253, 207, 5, 0.4);
+    background: linear-gradient(135deg, rgba(30, 30, 30, 0.9), rgba(50, 50, 50, 0.9));
+}
+
+/* Elevating the Team typography for the Finalists */
+.final-teams {
+    font-size: 1.5rem; /* Larger font size for prominence */
+    letter-spacing: 0.5px;
+}
+
+.packing-punch {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.final-vs {
+    background: #ffffff;
+    color: #000000;
+    padding: 3px 10px;
+    font-size: 0.9rem;
+}
+
+/* Custom Status Badge for the Final */
+.final-badge {
+    background: linear-gradient(135deg, #9c27b0, #e91e63); /* Sleek purple/pink transition */
+    color: #ffffff;
+    padding: 6px 14px;
+    border-radius: 4px;
+    font-size: 0.8rem;
+    box-shadow: 0 2px 8px rgba(233, 30, 99, 0.3);
+}
